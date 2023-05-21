@@ -12,6 +12,13 @@ import java.util.Random;
 
 public class Homework {
     public static void main(String[] args) {
+        //Задача 7. Найти индекс первого вхождения заданного значения в массиве.
+        //Уровень сложности 3 из 10:
+//        int[] array = {2, 4, 6, 8, 25, 44, 69, 13};
+//        int target = 44;
+//        int index = findeTagetMethode(array, target);
+//        System.out.println("Индекс первого вхождения значения " + target + " в массиве " + index);
+
 /*
     1.Найти сумму всех элементов в массиве.
     2.Найти наибольшее значение в массиве.
@@ -66,9 +73,9 @@ public class Homework {
 //        }
 //        System.out.println("All even numbers: " + even);
 /*
-1.Проверить, содержит ли массив заданное значение.
-2.Отсортировать массив по возрастанию.
-3.Найти индекс первого вхождения заданного значения в массиве.
+5.Проверить, содержит ли массив заданное значение.
+6.Отсортировать массив по возрастанию.
+7.Найти индекс первого вхождения заданного значения в массиве.
  */
         // 1.
 //        Random random3 = new Random();
@@ -89,32 +96,79 @@ public class Homework {
 //        }
 
         // 2.
-        Random random = new Random();
-        int arr[] = new int[10];
+//        Random random = new Random();
+//        int arr[] = new int[10];
+//
+//        for (int i = 0; i < arr.length; i++) {
+//            arr[i] = random.nextInt(100);
+//        }
+//
+//        for (int i = 0; i < arr.length - 1; i++) {
+//            for (int j = 0; j < arr.length - i - 1; j++) {
+//                if (arr[j] > arr[j + 1]) {
+//                    int tmp = arr[j];
+//                    arr[j] = arr[j + 1];
+//                    arr[j + 1] = tmp;
+//                }
+//            }
+//        }
+//        System.out.println("Отсортированный массив: " + Arrays.toString(arr));
+//    }
+//
+//    public static int findeTagetMethode(int[]array ,int target ){
+//        for (int i = 0; i < array.length; i++) {
+//            if(array[i] == target)
+//                return i;
+//        }
+//        return -1;
+//    }
+/*
+8.Найти среднее значение всех элементов в массиве.
+9.Поменять порядок элементов массива на обратный.
+10.Проверить, является ли массив палиндромом (элементы читаются одинаково с начала и с конца).
+11.Уровень сложности 4 из 10:
+ */
+        // 8.
+//        Random rand = new Random();
+//        int[] array = new int[20];
+//        for (int i = 0; i < array.length; i++) {
+//            array[i] = rand.nextInt(100);
+//            System.out.println("Начальный массив");
+//            System.out.println(Arrays.toString(array));
+//        }
+//        int sum = 0;    // сумма элементов
+//        for (int i = 0; i < array.length; i++) {
+//            sum += array[i];
+//        }
+//            int averageValue = sum / array.length;
+//
+//            System.out.println("Среднее значения массива " + averageValue);
+//        }
+//    }
 
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = random.nextInt(100);
-        }
+        // 9.
+//        int[] array = {1, 3, 6, 9, 23, 5, 6, 7, 3, 12, 65, 12};
+//        int[] result = new int[array.length];
+//        System.out.println(Arrays.toString(array));
+//
+//        for (int i = array.length - 1, j = 0; i >= 0; i--, j++){
+//            result[j] = array[i];
+//        }
+//        System.out.println(Arrays.toString(result));
 
-        for (int i = 0; i < arr.length - 1; i++) {
-            for (int j = 0; j < arr.length - i - 1; j++) {
-                if (arr[j] > arr[j + 1]) {
-                    int tmp = arr[j];
-                    arr[j] = arr[j + 1];
-                    arr[j + 1] = tmp;
-                }
+        int[] arr = {1, 3, 5, 7, 7, 5, 3, 1};
+        boolean palindome = true;
+
+        for (int i = 0; i < arr.length / 2; i++) {
+            if (arr[i] != arr[arr.length - 1 - i]){
+                palindome = false;
+                break;
             }
         }
-        System.out.println("Отсортированный массив: " + Arrays.toString(arr));
+        if (palindome){
+            System.out.println("Массив палиндром");
+        }else {
+            System.out.println("Массив не палиндром");
+        }
     }
 }
-
-
-
-
-
-
-
-
-
-
