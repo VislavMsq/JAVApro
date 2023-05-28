@@ -1,3 +1,5 @@
+package arrays;
+
 public class Task2 {
     public static void main(String[] args) {
 //Задача 6 (Уровень сложности: 3):

@@ -1,3 +1,5 @@
+package arrays;
+
 public class Task3 {
     public static void main(String[] args) {
 // Напишите программу, которая находит сумму всех элементов в заданном массиве.+
