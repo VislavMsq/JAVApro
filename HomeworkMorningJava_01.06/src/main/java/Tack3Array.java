@@ -10,11 +10,13 @@ public class Tack3Array {
 }
 
 class Stack<Q> {
-    private Q [] arr;
+    private Q[] arr;
     private int cursor = 0;
 
-
-    private void push(Q element){
-
+    private void push(Q element) {
+        if (cursor == arr.length) {
+            System.out.println("Стек переполнен!");
+            return;
+        }
     }
 }
