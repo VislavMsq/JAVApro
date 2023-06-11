@@ -1,7 +1,5 @@
-package binarySearch;
-
-public class Task {
+public class Ex {
     public static void main(String[] args) {
-
+        
     }
 }
