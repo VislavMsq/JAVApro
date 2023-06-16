@@ -3,7 +3,7 @@ package List;
 import java.util.List;
 
 public class Ex5 {
-    //Проверить, содержит ли List<String> хотя бы
+    // Проверить, содержит ли List<String> хотя бы
     // одну строку, которая начинается с заданного префикса.
 
     /*
