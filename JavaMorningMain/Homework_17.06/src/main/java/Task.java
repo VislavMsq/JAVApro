@@ -1,9 +1,12 @@
 import java.security.Key;
+import java.sql.SQLOutput;
 import java.util.*;
 
 public class Task {
     public static void main(String[] args) {
-        // 1.
+
+        // region Solutions
+        //1.
         Map<Integer, String> map = new HashMap<>();
         map.put(1, "123qqq");
         map.put(2, "q2eqwert");
@@ -37,6 +40,37 @@ public class Task {
 
         // 10.
         System.out.println(mapReverse(map));
+
+        // 11.
+//        System.out.println(map);
+//        clearAndPrint(map);
+//        System.out.println(map);
+
+        // 12.1
+        List<Integer> list = new ArrayList<>();
+        list.add(123);
+        list.add(321);
+        list.add(111);
+
+        // 12.2
+        printEveryElement(List.of(list.toArray()));
+
+        // 13.
+        reverseOut(List.of(list.toArray()));
+
+        // 14.
+        int[] arr = {3, 5, 9, 2, 4, 12};
+        getMinAndMax(arr);
+
+        // 15.
+        System.out.println("Enum count -> " + countOfEnum(arr));
+
+        // 16.
+        reversSort(arr);
+
+        // 17.
+        System.out.println("Square sum -> " + squareSum(arr));
+        // endregion
     }
 
 
@@ -157,13 +191,103 @@ public class Task {
     // region Создать новую мапу, где значениями будут ключи, а ключами - значения исходной мапы.
     // [[K,V] [K,V]] -> [[V,K][V,K]]
     public static Map<String, Integer> mapReverse(Map<Integer, String> map) {
-        Map<String,Integer> mapR = new HashMap<>();
-        for (Map.Entry<Integer,String> entry : map.entrySet()){
-            mapR.put(entry.getValue(),entry.getKey());
+        Map<String, Integer> mapR = new HashMap<>();
+        for (Map.Entry<Integer, String> entry : map.entrySet()) {
+            mapR.put(entry.getValue(), entry.getKey());
         }
         return mapR;
     }
+
     // endregion
     // region Очистить мапу и вывести сообщение о ее пустом состоянии.
+    public static void clearAndPrint(Map<Integer, String> map) {
+        map.clear();        // очистили Map
+        System.out.println("Map was cleared");
+    }
+
+    // endregion
+    // region Создать список List, заполнить его несколькими значениями и вывести на экран каждый элемент списка.
+    public static void printEveryElement(List<Object> list) {
+        for (Object elem : list) {
+            System.out.print(elem + " \n");
+        }
+    }
+
+    // endregion
+    // region Создать список List, заполнить его несколькими значениями. Затем перебрать список и вывести
+    // элементы в обратном порядке.
+    public static void reverseOut(List<Object> list) {
+        System.out.println("reverse out");
+        for (int i = list.size() - 1; i >= 0; i--) {
+            System.out.print(list.get(i) + " ");
+        }
+        System.out.println();
+    }
+
+    // endregion
+    // region Вычислить сумму всех элементов в массиве int[] и вывести результат.
+    public static int getArraySum(int[] arr) {
+        int sum = 0;
+        for (Integer num : arr) {
+            sum += num;
+        }
+        return sum;
+    }
+
+    // endregion
+    // region Найти наименьший и наибольший элементы в массиве int[] и вывести их.
+    public static void getMinAndMax(int[] arr) {
+        int max = Integer.MIN_VALUE;
+        int min = Integer.MAX_VALUE;
+        for (Integer num : arr) {
+            if (max < num) {
+                max = num;
+            }
+            if (min > num) {
+                min = num;
+            }
+        }
+        System.out.println("Max -> " + max);
+        System.out.println("Min -> " + min);
+    }
+
+    // endregion
+    // region Подсчитать количество четных элементов в массиве int[] и вывести результат.
+    public static int countOfEnum(int[] arr) {
+        int count = 0;
+        for (Integer num : arr) {
+            if (num % 2 == 0) {
+                count++;
+            }
+        }
+        return count;
+    }
+
+    // endregion
+    // region Отсортировать массив int[] в порядке убывания и вывести отсортированный массив.
+    public static void reversSort(int[] arr) {
+        for (int i = 0; i < arr.length - 1; i++) {
+            for (int j = i + 1; j < arr.length; j++) {
+
+                if (arr[i] < arr[j]) {
+                    int temp = arr[j];
+                    arr[j] = arr[i];
+                    arr[i] = temp;
+                }
+            }
+        }
+        System.out.println(Arrays.toString(arr));
+    }
+
+    // endregion
+    // region Подсчитать сумму квадратов всех элементов в массиве int[] и вывести результат.
+    public static int squareSum(int[] arr) {
+        int sum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            sum += arr[i] * arr[i];
+        }
+        return sum;
+    }
+    // endregion
 }
 
