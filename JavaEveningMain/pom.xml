@@ -10,6 +10,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>Hemowork_08.06</module>
+        <module>Lesson_13.06</module>
+        <module>Lesson_15.06</module>
     </modules>
 
     <properties>

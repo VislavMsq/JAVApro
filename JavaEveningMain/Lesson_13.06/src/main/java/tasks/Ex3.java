@@ -1,3 +1,5 @@
+package tasks;
+
 import java.util.Set;
 
 public class Ex3 {

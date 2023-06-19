@@ -1,3 +1,5 @@
+package tasks;
+
 import java.util.*;
 
 import static java.util.Collections.list;
