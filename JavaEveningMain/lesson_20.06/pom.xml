@@ -3,22 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.example</groupId>
+        <artifactId>JavaEveningMain</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
-    <groupId>org.example</groupId>
-    <artifactId>JavaMorningMain</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <modules>
-        <module>Lesson_13.06</module>
-        <module>LessonPractice_13.06</module>
-        <module>PracticeHomework</module>
-        <module>Lesson_15.06</module>
-        <module>Practice_15.06</module>
-        <module>Summary_16.06</module>
-        <module>Homework_17.06</module>
-        <module>Lesson_20.06</module>
-        <module>Lesson_22.06</module>
-    </modules>
+    <artifactId>lesson_20.06</artifactId>
 
     <properties>
         <maven.compiler.source>19</maven.compiler.source>
