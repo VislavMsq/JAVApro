@@ -6,7 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Algorithms" />
+        <module name="Lesson_09.06" />
+        <module name="Lesson_16.06" />
+        <module name="LessonMorning_21.06" />
+        <module name="Homework_09.06" />
+        <module name="Hemework_25.06" />
       </profile>
     </annotationProcessing>
   </component>

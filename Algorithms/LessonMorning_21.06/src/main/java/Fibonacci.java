@@ -1,5 +1,6 @@
-public class Fibbonacci {
+public class Fibonacci {
     public static void main(String[] args) {
 
     }
+
 }
