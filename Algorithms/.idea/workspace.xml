@@ -5,45 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b011c87-cdc8-4dfd-a27c-558f1c273d7c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Hemework_25.06/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hemework_25.06/src/main/java/DynamicList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hemework_25.06/src/main/java/DynamicMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEveningMain/Lesson_22.06/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEveningMain/Lesson_22.06/src/main/java/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/classStructure1/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/classStructure1/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/classStructure1/Info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/classStructure1/enums/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/classStructure1/enums/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/task/Lesson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/task/Task10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/task/Task11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/task/Task12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/task/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/task/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/task/Task4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/task/Task5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/task/Task7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/task/Task8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/task/Task9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaMorningMain/SummaryLesson_23.06/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaMorningMain/SummaryLesson_23.06/src/main/java/BestStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaMorningMain/SummaryLesson_23.06/src/main/java/TupleExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaMorningMain/SummaryLesson_23.06/src/main/java/task/Tasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEveningMain/Lesson_27.06/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaMorningMain/Homework_26.06/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaMorningMain/Homework_26.06/src/main/java/HomeWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_27.06/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_27.06/src/main/java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_27.06/src/main/java/Test77.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_27.06/src/main/java/Test95.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_27.06/src/main/java/ex/Ex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_27.06/src/main/java/streamAPI/Ex2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_27.06/src/main/java/streamAPI/Str.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_27.06/src/main/java/streamAPI/StrEx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaMorningMain/Practice_27.06/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaMorningMain/Practice_27.06/src/main/java/HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaMorningMain/Practice_27.06/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework_09.06/src/main/java/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_09.06/src/main/java/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LessonMorning_21.06/src/main/java/Binary.java" beforeDir="false" afterPath="$PROJECT_DIR$/LessonMorning_21.06/src/main/java/Binary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LessonMorning_21.06/src/main/java/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/LessonMorning_21.06/src/main/java/Factorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LessonMorning_21.06/src/main/java/Fibbonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/LessonMorning_21.06/src/main/java/Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LessonMorning_21.06/src/main/java/Hanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/LessonMorning_21.06/src/main/java/Hanoi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LessonMorning_21.06/src/main/java/SumNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/LessonMorning_21.06/src/main/java/SumNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson_09.06/src/main/java/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_09.06/src/main/java/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson_16.06/src/main/java/Lesson.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_16.06/src/main/java/Lesson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson_16.06/src/main/java/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_16.06/src/main/java/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_26.06/src/main/java/HW.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_26.06/src/main/java/HW.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AlgorithmsMorning_07.06/src/main/java/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgorithmsMorning_07.06/src/main/java/Task2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithms_09.06/src/main/java/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithms_09.06/src/main/java/Task1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EveningLessonJavaPro_30.05/src/main/java/Ex4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EveningLessonJavaPro_30.05/src/main/java/Ex4.java" afterDir="false" />
@@ -57,6 +34,7 @@
       <change beforePath="$PROJECT_DIR$/../JavaEveningMain/Homework_20.06/src/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEveningMain/Homework_20.06/src/Task2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaEveningMain/Homework_20.06/src/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEveningMain/Homework_20.06/src/Task3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaEveningMain/Lesson_15.06/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEveningMain/Lesson_15.06/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEveningMain/Lesson_22.06/src/main/java/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEveningMain/Lesson_22.06/src/main/java/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaEveningMain/lesson_20.06/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEveningMain/lesson_20.06/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaEveningMain/lesson_20.06/src/main/java/BankCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEveningMain/lesson_20.06/src/main/java/BankCard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaEveningMain/lesson_20.06/src/main/java/Permission.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEveningMain/lesson_20.06/src/main/java/Permission.java" afterDir="false" />
@@ -66,7 +44,19 @@
       <change beforePath="$PROJECT_DIR$/../JavaEveningMain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEveningMain/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaMorningMain/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaMorningMain/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/Lesson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/classStructure1/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/classStructure1/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/classStructure1/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/classStructure1/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/classStructure1/Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/classStructure1/Info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/classStructure1/enums/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/classStructure1/enums/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/classStructure1/enums/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/classStructure1/enums/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/task/Task10.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/task/Task10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/task/Task11.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/task/Task11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/task/Task12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/task/Task12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/task/Task8.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/task/Task8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/task/Task9.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaMorningMain/Lesson_22.06/src/main/java/task/Task9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaMorningMain/SummaryLesson_23.06/src/main/java/BestStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaMorningMain/SummaryLesson_23.06/src/main/java/BestStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaMorningMain/SummaryLesson_23.06/src/main/java/TupleExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaMorningMain/SummaryLesson_23.06/src/main/java/TupleExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaMorningMain/SummaryLesson_23.06/src/main/java/task/Tasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaMorningMain/SummaryLesson_23.06/src/main/java/task/Tasks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaMorningMain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaMorningMain/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LessonEveningJavaPro_01.06/src/main/java/Ex67.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LessonEveningJavaPro_01.06/src/main/java/Ex67.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LessonEveningJavaPro_01.06/src/main/java/SetEx1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LessonEveningJavaPro_01.06/src/main/java/SetEx1.java" afterDir="false" />
@@ -106,7 +96,9 @@
       <change beforePath="$PROJECT_DIR$/../SummaryJavaPro_09.06/src/main/java/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SummaryJavaPro_09.06/src/main/java/Task1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SummaryJavaPro_09.06/src/main/java/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SummaryJavaPro_09.06/src/main/java/Task2.java" afterDir="false" />
     </list>
-    <list id="197dd1c8-bf6a-4b97-8b4d-402eec526950" name="Changes by Богдан" comment="" />
+    <list id="b8cfcc95-f2d7-4e24-8b9d-c19decd440f5" name="Changes by Богдан" comment="">
+      <change beforePath="$PROJECT_DIR$/Homework_26.06/src/main/java/HW.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_26.06/src/main/java/HW.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,6 +113,36 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/Homework_26.06/src/main/java/HW.java">
+      <ranges>
+        <range start1="3" end1="4" start2="3" end2="8" changelist="4b011c87-cdc8-4dfd-a27c-558f1c273d7c" />
+        <range start1="5" end1="6" start2="9" end2="24" changelist="4b011c87-cdc8-4dfd-a27c-558f1c273d7c" />
+        <range start1="7" end1="8" start2="25" end2="26" changelist="4b011c87-cdc8-4dfd-a27c-558f1c273d7c" />
+        <range start1="17" end1="18" start2="35" end2="35" changelist="4b011c87-cdc8-4dfd-a27c-558f1c273d7c" />
+        <range start1="20" end1="26" start2="37" end2="37" changelist="b8cfcc95-f2d7-4e24-8b9d-c19decd440f5" />
+        <range start1="27" end1="28" start2="38" end2="39" changelist="b8cfcc95-f2d7-4e24-8b9d-c19decd440f5" />
+        <range start1="29" end1="31" start2="40" end2="42" changelist="4b011c87-cdc8-4dfd-a27c-558f1c273d7c" />
+        <range start1="32" end1="34" start2="43" end2="45" changelist="4b011c87-cdc8-4dfd-a27c-558f1c273d7c" />
+        <range start1="35" end1="37" start2="46" end2="48" changelist="4b011c87-cdc8-4dfd-a27c-558f1c273d7c" />
+        <range start1="38" end1="39" start2="49" end2="50" changelist="4b011c87-cdc8-4dfd-a27c-558f1c273d7c" />
+        <range start1="40" end1="41" start2="51" end2="52" changelist="4b011c87-cdc8-4dfd-a27c-558f1c273d7c" />
+        <range start1="43" end1="51" start2="54" end2="62" changelist="4b011c87-cdc8-4dfd-a27c-558f1c273d7c" />
+        <range start1="52" end1="61" start2="63" end2="72" changelist="4b011c87-cdc8-4dfd-a27c-558f1c273d7c" />
+        <range start1="62" end1="64" start2="73" end2="75" changelist="4b011c87-cdc8-4dfd-a27c-558f1c273d7c" />
+        <range start1="65" end1="66" start2="76" end2="77" changelist="4b011c87-cdc8-4dfd-a27c-558f1c273d7c" />
+        <range start1="67" end1="68" start2="78" end2="79" changelist="4b011c87-cdc8-4dfd-a27c-558f1c273d7c" />
+        <range start1="69" end1="75" start2="80" end2="86" changelist="4b011c87-cdc8-4dfd-a27c-558f1c273d7c" />
+        <range start1="76" end1="78" start2="87" end2="89" changelist="4b011c87-cdc8-4dfd-a27c-558f1c273d7c" />
+        <range start1="79" end1="81" start2="90" end2="91" changelist="4b011c87-cdc8-4dfd-a27c-558f1c273d7c" />
+        <range start1="82" end1="83" start2="92" end2="93" changelist="4b011c87-cdc8-4dfd-a27c-558f1c273d7c" />
+        <range start1="84" end1="87" start2="94" end2="97" changelist="4b011c87-cdc8-4dfd-a27c-558f1c273d7c" />
+        <range start1="88" end1="93" start2="98" end2="103" changelist="4b011c87-cdc8-4dfd-a27c-558f1c273d7c" />
+        <range start1="94" end1="95" start2="104" end2="131" changelist="4b011c87-cdc8-4dfd-a27c-558f1c273d7c" />
+        <range start1="96" end1="96" start2="132" end2="136" changelist="4b011c87-cdc8-4dfd-a27c-558f1c273d7c" />
+      </ranges>
+    </file>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -147,10 +169,11 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DynamicMain">
+  <component name="RunManager" selected="Application.HW">
     <configuration name="DynamicMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DynamicMain" />
       <module name="Hemework_25.06" />
@@ -165,16 +188,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hanoi" />
-      <module name="LessonMorning_21.06" />
+    <configuration name="HW" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW" />
+      <module name="Homework_26.06" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumElementFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaximumElementFinder" />
-      <module name="Lesson_09.06" />
+    <configuration name="Hanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hanoi" />
+      <module name="LessonMorning_21.06" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -188,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HW" />
         <item itemvalue="Application.DynamicMain" />
         <item itemvalue="Application.SumNum" />
         <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.Hanoi" />
-        <item itemvalue="Application.MaximumElementFinder" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +227,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686331063195</updated>
-      <workItem from="1687713942213" duration="6083000" />
+      <workItem from="1687713942213" duration="12367000" />
     </task>
     <servers />
   </component>
