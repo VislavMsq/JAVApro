@@ -2,6 +2,7 @@ import lombok.*;
 
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Task3 {
     public static void main(String[] args) {
@@ -37,6 +38,12 @@ public class Task3 {
 
         // 8.
         deleteThreeSimbl(words);
+
+        // 9.
+        threeMinNumber(integerList);
+
+        // 10.
+        checkString(words);
     }
 
     // 1. Дан список чисел. Необходимо найти максимальное четное число.
@@ -128,6 +135,38 @@ public class Task3 {
 
     }
 
+    // 9. Дан список чисел. Необходимо найти три наименьших числа и вывести результат.
+    public static void threeMinNumber(List<Integer> list) {
+        OptionalInt min = list.parallelStream()
+                .mapToInt(Integer::intValue)
+                .min();
+
+        OptionalInt min1 = list.parallelStream()
+                .mapToInt(Integer::intValue)
+                .sorted()
+                .skip(1)
+                .min();
+
+        OptionalInt min2 = list.parallelStream()
+                .mapToInt(Integer::intValue)
+                .sorted()
+                .skip(2)
+                .min();
+
+        System.out.println(min + " " + min1 + " " + min2);
+
+//            Stream<Integer> threeMinNum = Stream.of(min,min1,min2).flatMap(OptionalInt::stream).forEach();
+//            threeMinNum.forEach(System.out::println);
+
+    }
+
+    // 10. Дан список строк. Необходимо проверить, содержит ли хотя бы одна строка подстроку "an" и вывести результат.
+    public static void checkString(List<String> list) {
+        boolean an = list.stream()
+                .anyMatch(el -> el.contains("an"));
+        System.out.println(an);
+
+    }
 }
 
 @Getter
