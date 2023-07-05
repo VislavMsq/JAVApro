@@ -9,7 +9,7 @@ public class Task8 {
         System.out.println(getString(arr));
 
         // 2.
-        System.out.println(getString2(arr));
+        System.out.println(getString(arr));
     }
 /*
 -Напишите программу, которая принимает массив строк String[] и
