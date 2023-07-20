@@ -1,0 +1,42 @@
+
+class BankCard
+    currency;
+    enum status;
+    string numer;
+    string mmyy;
+    string CVV;
+
+
+class Generator
+    methode:
+        return BankCard
+        return client
+
+
+class Client
+     name;
+     balance;
+     BankCard;
+
+class Storage
+     Map<Client, Client.balance>
+
+        Methode:
+            Принимает Map + параметр
+            - ++ statusCard
+            - ++ groupClientBalance
+            - ++ avgBalanceClient
+            - ++ showClientAndNUmberCard
+            - ++ showEndDateCard
+            - ++ sortBalance
+            - ++ groupByDateCard
+
+
+enum Status
+
+
+<dependency>
+    <groupId>com.github.javafaker</groupId>
+    <artifactId>javafaker</artifactId>
+    <version>0.15</version>
+</dependency>
