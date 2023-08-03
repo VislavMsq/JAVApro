@@ -1,0 +1,13 @@
+
+U
+java:S1118":Add a private constructor to hide the implicit public one.(øÃÔ•øÿÿÿÿ
+I
+java:S1874".Remove this use of "Locale"; it is deprecated.(ØİœÒûÿÿÿÿ
+3
+java:S2119"Save and re-use this "Random".(¼İÅf
+Y
+java:S1854)"7Remove this useless assignment to local variable "add".(Øóšøÿÿÿÿ8œ¢Ö›1
+;
+java:S2119,"Save and re-use this "Random".(¨ùİ¥8£¢Ö›1
+J
+java:S1481)"(Remove this unused "add" local variable.(Øóšøÿÿÿÿ8¨¢Ö›1

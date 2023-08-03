@@ -11,7 +11,6 @@ public class Developer {
     private int salary;
     private char gender;
     private Car car;
-//    private Map<Developer,Car> carMap;
 
     public Developer(String firstName, String lastName, int salary, char gender, Car car) {
         this.firstName = firstName;

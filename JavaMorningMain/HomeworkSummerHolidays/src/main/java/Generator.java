@@ -38,7 +38,7 @@ public class Generator {
 
         for (int i = 0; i < count; i++) {
             String[] name = generateName(); // name [0] [1]
-            developers.add(new Developer(
+            boolean add = developers.add(new Developer(
                     name[0],
                     name[1],
                     new Random().nextInt(5000, 30001),
