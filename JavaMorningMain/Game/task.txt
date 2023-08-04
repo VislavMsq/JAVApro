@@ -1,0 +1,31 @@
+є цільове слово "ананас"
+воно є в паматі нормально записане но виводиться "______"
+в цьогго слова є фільтр "спалених букв"
+    sniper ["_", "_", "_", "_", "_", "_"]
+    miss   [""]
+>> "фантом"
+
+-- фантом ананас
+ф -> а || false : sniper.insert("ф", i)
+ф -> ананас || false : miss.add("ф")
+
+sniper ["_", "_", "_", "_", "_", "_"]
+miss   ["а", "н"]
+
+-- фантом
+>> ______ | ан
+
+class Word
+     String targetWord
+     List<S> sniper
+     List<S> miss
+
+        methode:
+            checkerWord(String word)
+                - == size, если фолс, то ошибка
+                - iter index && == index
+                    - true -> open char -> add "sniper"
+                    - false -> check char in target
+                        - false -> kick char
+                        - true -> add list "miss"
+                -

@@ -38,6 +38,7 @@
         <module>Lesson_01.08</module>
         <module>Practice_01.08</module>
         <module>Homework_03.08</module>
+        <module>Game</module>
     </modules>
 
     <properties>

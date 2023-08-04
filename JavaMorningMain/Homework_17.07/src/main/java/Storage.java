@@ -17,7 +17,7 @@ public class Storage {
         }
     }
 
-    public List<Client> statusCard(Status status) { // вивести ублюдкыв з таким статусом карти
+    public List<Client> statusCard(Status status) {
         return this.clientIntegerMap
                 .keySet().stream()
                 .filter(el -> el.getBankCard().getStatus() == status)
