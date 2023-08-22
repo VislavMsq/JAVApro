@@ -12,7 +12,7 @@ public class Generator {
         return new String[]{faker.name().firstName(), faker.name().lastName()};
     }
 
-    private static char getGender(String name) {
+    public static char getGender(String name) {
         if (Character.toString(name.charAt(name.length() - 1)).matches(".*[aeu]$"))
             return 'F';
         return 'M';
@@ -34,8 +34,10 @@ public class Generator {
     }
 
     public static List<Developer> generateDeveloper(int count) {
+        if (count <= 0) {
+            throw new IllegalArgumentException();
+        }
         List<Developer> developers = new ArrayList<>();
-
         for (int i = 0; i < count; i++) {
             String[] name = generateName(); // name [0] [1]
             boolean add = developers.add(new Developer(

@@ -39,6 +39,18 @@
         <module>Practice_01.08</module>
         <module>Homework_03.08</module>
         <module>Game</module>
+        <module>Summary_04.08</module>
+        <module>MySQL</module>
+        <module>Lesson_08.08</module>
+        <module>Algorithms</module>
+        <module>Lesson_10.08</module>
+        <module>Practice_10.08</module>
+        <module>Homework_10.08</module>
+        <module>Lesson_15.08</module>
+        <module>Lesson_15.08</module>
+        <module>Practice_18.08</module>
+        <module>Homework_TextParser</module>
+        <module>Lesson_22.08</module>
     </modules>
 
     <properties>
