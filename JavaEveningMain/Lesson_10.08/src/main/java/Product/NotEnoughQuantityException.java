@@ -1,2 +1,7 @@
-package Product;public class NotEnoughQuantityExeption {
+package Product;
+
+public class NotEnoughQuantityException extends RuntimeException {
+    public NotEnoughQuantityException(){
+        super();
+    }
 }

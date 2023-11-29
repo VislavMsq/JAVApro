@@ -15,7 +15,6 @@ public class Product {
     private float price;
     private float margin;
 
-
     public float getTotalPrice() {
         return price * quantity;
     }

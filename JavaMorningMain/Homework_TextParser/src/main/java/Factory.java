@@ -2,12 +2,10 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.ToString;
 
-import java.util.Comparator;
-
 @ToString
 @Getter
 @AllArgsConstructor
-public class Factory implements Comparable<Factory>{
+public class Factory implements Comparable<Factory> {
     private int id;
     private String name;
     private Product product;

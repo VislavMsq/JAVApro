@@ -2,6 +2,12 @@ package TaskClass.DiningRoom;
 
 public class MainMain {
     public static void main(String[] args) {
+
+        Dish dish = new Dish("1",2.45,Category.DESERT);
+        dish.setName("2");
+        System.out.println(dish);
+
+
         Cafeteria cafeteria = new Cafeteria();
 
         Order order1 = new Order(3);

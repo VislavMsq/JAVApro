@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
-        Map<String, Integer> map = new HashMap<>();
+        Map<String, Integer> map = new HashMap<>(); // крутяк)
 
         String key = "key"; //KEY
         Integer value = 10;

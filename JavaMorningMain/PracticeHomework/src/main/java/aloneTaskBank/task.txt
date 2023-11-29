@@ -1,0 +1,64 @@
+Управление банковскими счетами
+
+Разработайте систему управления банковскими счетами. Создайте классы BankAccount и BankCustomer, а также напишите методы для взаимодействия с этими классами.
+
+Класс BankAccount должен иметь поля:
+
+accountNumber (String) - номер счета
+balance (double) - текущий баланс на счете
+
+Методы класса BankAccount:
+
+deposit(double amount) - пополнение счета на указанную сумму
+withdraw(double amount) - снятие средств с счета на указанную сумму
+getBalance() - получение текущего баланса
+
+Класс BankCustomer должен иметь поля:
+
+firstName (String) - имя клиента
+lastName (String) - фамилия клиента
+accounts (List<BankAccount>) - список банковских счетов клиента
+Методы класса BankCustomer:
+
+addAccount(BankAccount account) - добавление нового счета клиенту
+getTotalBalance() - подсчет общего баланса по всем счетам клиента
+
+
+
+
+
+class Transaction
+    transactionId (int) - идентификатор транзакции
+    sourceAccount (BankAccount) - исходный банковский счет
+    destinationAccount (BankAccount) - целевой банковский счет
+    amount (double) - сумма транзакции
+    timestamp (LocalDateTime) - временная метка транзакции
+        methode:
+        ++getTransactionDetails() - возвращает информацию о транзакции в виде строки
+
+class TransactionManager
+    transactions (List<Transaction>) - список транзакций
+        methode:
+        ++addTransaction(Transaction transaction) - добавляет транзакцию в список
+        ++getTransactionsByAccount(BankAccount account) - возвращает список транзакций для указанного счета
+
+class BankAccount
+    accountNumber (String)
+    balance (double)
+        methode:
+            ++deposit(double amount) - пополнение счета на указанную сумму
+            ++withdraw(double amount) - снятие средств с счета на указанную сумму
+            ++getBalance() - получение текущего баланса
+            ++transfer(BankAccount destinationAccount, double amount) - переводит указанную сумму со счёта текущего аккаунта на счёт другого аккаунта.
+            ++printAccountInfo() - выводит информацию о счёте, включая номер счёта и текущий баланс.
+
+class BankCustomer
+    firstName (String)
+    lastName (String)
+    accounts (List<BankAccount>)
+        methode:
+            ++addAccount(BankAccount account) - добавление нового счета клиенту
+            ++getTotalBalance() - подсчет общего баланса по всем счетам клиента
+            ++getAccountByNumber(String accountNumber) - возвращает банковский счёт по его номеру, если такой счёт существует у клиента.
+            ++getAccountsWithPositiveBalance() - возвращает список банковских счетов у клиента, у которых баланс положителен.
+            ++removeAccount(BankAccount account) - удаляет указанный банковский счёт из списка счетов у клиента.

@@ -1,7 +1,8 @@
 import java.util.*;
 import java.util.stream.Collectors;
 
-import static java.util.stream.Collectors.*;
+import static java.util.stream.Collectors.mapping;
+import static java.util.stream.Collectors.toList;
 
 public class Handler {
     private List<Factory> factoryList;
@@ -10,12 +11,14 @@ public class Handler {
         this.factoryList = Parser.parsElements(fileName);
     }
 
+    //ай ди всех компаний
     public List<Integer> idAllFactory() {
         return factoryList.stream()
                 .map(Factory::getId)
                 .toList();
     }
 
+    //самый дорогой СНЭК
     public Product mostExpensiveSome(String category) {
         return factoryList.stream()
                 .map(Factory::getProduct)
@@ -25,6 +28,7 @@ public class Handler {
 
     }
 
+    //какого товара больше всего на складе в деньгах
     public Map<String, Double> mostCostProduct() {
         Map<String, List<Product>> stringListMap = factoryList.stream()
                 .map(Factory::getProduct)
@@ -50,6 +54,7 @@ public class Handler {
                 .orElse(new HashMap<>());
     }
 
+    //какого ДРИНКС товара меньше всего на складе в деньгах
     public Map<String, Double> lessDrinkValueSum() {
 
         Map<String, List<Float>> doubleMap = factoryList.stream()
@@ -74,6 +79,7 @@ public class Handler {
                 .orElse(new HashMap<>());
     }
 
+    //количество видов акционного товара у ФУД
     public long quantityActionProd() {
         return factoryList.stream()
                 .map(Factory::getProduct)
@@ -84,12 +90,14 @@ public class Handler {
                 .count();
     }
 
+    //сгруппировать по упакованным и нет
     public Map<Boolean, List<Product>> groupingByPacket() {
         return factoryList.stream()
                 .map(Factory::getProduct)
                 .collect(Collectors.partitioningBy(Product::isPacked));
     }
 
+    //у какого ДРИНКС самая высокая маржа
     public Product moreMarginDrink() {
         return factoryList.stream()
                 .map(Factory::getProduct)
@@ -98,6 +106,7 @@ public class Handler {
                 .orElse(null);
     }
 
+    //средняя маржа по категории
     public double avgCategory(String category) {
         return factoryList.stream()
                 .map(Factory::getProduct)
@@ -107,6 +116,7 @@ public class Handler {
                 .orElse(0);
     }
 
+    //первые три товара ФУД которые участвуют в акции и у которых самая низкая маржа
     public List<Product> firstThreeProdWithActionAndLowMargin() {
         return factoryList.stream()
                 .map(Factory::getProduct)
@@ -117,12 +127,14 @@ public class Handler {
                 .toList();
     }
 
+    //поместить в три мапу отсортировав по ай ди. #37 - это ай ди.
     public TreeMap<Integer, Product> toTreeMap() {
         TreeMap<Integer, Product> factoryTreeMap = new TreeMap<>();
         factoryList.forEach(el -> factoryTreeMap.put(el.getId(), el.getProduct()));
         return factoryTreeMap;
     }
 
+    //самый дешевый товар которого меньше всего на складе осталось в кг или штуках в зависимости от ISPACKED
     public Product mostCheapestProd() {
         return factoryList.stream()
                 .map(Factory::getProduct)

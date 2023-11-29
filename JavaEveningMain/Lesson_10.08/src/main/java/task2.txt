@@ -1,0 +1,42 @@
+Вы разрабатываете систему для управления заказами в интернет-магазине.
+Вам нужно создать три класса, которые будут описывать основные
+сущности этой системы: Product, Order, и OrderManager.
+
+Класс Product:
+
+Класс описывает товар, доступный для заказа. У товара есть следующие атрибуты:
+
+int id (уникальный идентификатор товара)
+String name (название товара)
+double price (цена товара)
+int availableQuantity (количество доступных товаров)
+
+Методы:
+
+boolean isAvailable() - возвращает true, если товар доступен для заказа, иначе false.
+    - quantity > 0
+decreaseQuantity(int quantity) - уменьшает количество доступных товаров на заданное значение.
+    - quantity -= quantity
+Класс Order:
+
+Класс представляет заказ, который сделал клиент. У заказа есть следующие атрибуты:
+
+int id (уникальный идентификатор заказа)
+String customerName (имя клиента, сделавшего заказ)
+List<Products> listProd (список товаров в заказе)
+Enum status (статус заказа: "новый", "в обработке", "отправлен", "доставлен")
+Методы:
+
+addProduct(Product product, int quantity) - добавляет товар в заказ с указанным количеством.
+    - listProd.add()
+removeProduct(Product product, int quantity) - удаляет товар из заказа с указанным количеством.
+changeStatus(String newStatus) - изменяет статус заказа.
+Класс OrderManager:
+
+Класс управляет заказами в интернет-магазине. Он имеет методы для создания, обновления и отслеживания заказов.
+
+Методы:
+
+createOrder(String customerName, List<Product> products) - создает новый заказ для указанного клиента с заданными товарами.
+updateOrderStatus(Order order, String newStatus) - обновляет статус заказа.
+calculateTotalPrice(Order order) - вычисляет общую стоимость заказа.

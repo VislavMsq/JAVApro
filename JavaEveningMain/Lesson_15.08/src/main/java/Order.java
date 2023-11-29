@@ -1,2 +1,31 @@
-package PACKAGE_NAME;public class Order {
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+import java.time.LocalDate;
+import java.util.List;
+
+@Getter
+@AllArgsConstructor
+public class Order {
+    public static final int DAYS_BEFORE_EXPIRATION = 7;
+    private int orderId;
+    private Person customer;
+    private List<Product> products;
+    private LocalDate orderDate;
+
+    public double calculateTotalPrice() {
+        return products.stream()
+                .map(Product::getPrice)
+                .mapToDouble(Double::doubleValue)
+                .sum();
+    }
+
+    public int getNumberOfProducts() {
+        return products.size();
+    }
+
+    public boolean isOrderExpired() {
+        return orderDate.isBefore(LocalDate.now().minusDays(DAYS_BEFORE_EXPIRATION));
+    }
 }
+

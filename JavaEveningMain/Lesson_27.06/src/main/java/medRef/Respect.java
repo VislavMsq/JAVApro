@@ -1,2 +1,6 @@
-package medRef;public interface Respect {
+package medRef;
+
+@FunctionalInterface
+public interface Respect {
+    void get();
 }

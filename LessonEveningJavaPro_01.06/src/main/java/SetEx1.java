@@ -23,6 +23,7 @@ public class SetEx1 {
         set.add(s7);
 
 
+        s1.compareTo(s1);
 //        Collections.sort(set, new StudentAgeComparator());
 
         System.out.println(set);
@@ -62,12 +63,12 @@ class Student implements Comparable<Student> {
     // stud.compareTo(stud22)
     @Override
     public int compareTo(Student elem) {
-//        int a = 0;
-//        if (this.age == elem.age) {
-//            a = this.name.compareTo(elem.name);
-//        }
-//        return a;
-        return this.course -elem.course;     // -  по цифрам
+        int a = 0;
+        if (this.age == elem.age) {
+            a = this.name.compareTo(elem.name);
+        }
+        return a;
+//        return this.course -elem.course;     // -  по цифрам
 //        return this.name.compareTo(elem.name);  // по стрингу
     }
 }

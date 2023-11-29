@@ -156,19 +156,19 @@ public class Homework {
 //        }
 //        System.out.println(Arrays.toString(result));
 
-        int[] arr = {1, 3, 5, 7, 7, 5, 3, 1};
-        boolean palindome = true;
-
-        for (int i = 0; i < arr.length / 2; i++) {
-            if (arr[i] != arr[arr.length - 1 - i]){
-                palindome = false;
-                break;
-            }
-        }
-        if (palindome){
-            System.out.println("Массив палиндром");
-        }else {
-            System.out.println("Массив не палиндром");
-        }
+//        int[] arr = {1, 3, 5, 7, 7, 5, 3, 1};
+//        boolean palindome = true;
+//
+//        for (int i = 0; i < arr.length / 2; i++) {
+//            if (arr[i] != arr[arr.length - 1 - i]){
+//                palindome = false;
+//                break;
+//            }
+//        }
+//        if (palindome){
+//            System.out.println("Массив палиндром");
+//        }else {
+//            System.out.println("Массив не палиндром");
+//        }
     }
 }

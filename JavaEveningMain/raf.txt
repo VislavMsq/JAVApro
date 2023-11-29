@@ -1,0 +1,5 @@
+!!!!!imes a method in which an exception can be thrown does not itself
+handle the exception. In this case, the method declaration uses the throws
+statement, which must be processed when the method is called. For example,
+we have a factorial calculation method, and we need to handle the situation
+if a number less than 1 is passed to the method:

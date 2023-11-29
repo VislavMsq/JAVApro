@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class ListUsageEx {
+public class ListUsageEx {
+    public static void main(String[] args) {
+
+    }
 }
